@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.js","index.js"],"names":["alert"],"mappings":";;;AAAAA,MAAM;;ACCN,aADA,QAAA,iBACA,QAAA","file":"src.a03af605.js","sourceRoot":"..\\src","sourcesContent":["alert(\"Parcel\");","import \"./styles.scss\"\r\nimport \"./app.js\""]}
