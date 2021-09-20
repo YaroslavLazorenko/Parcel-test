@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel ./src/index.html",
-    "build": "parcel build ./src/index.html"
+    "build": "parcel build ./src/index.html --public-url /parcel-test/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -18,9 +20,12 @@
   "bugs": {
     "url": "https://github.com/YaroslavLazorenko/Parcel-test/issues"
   },
-  "homepage": "https://github.com/YaroslavLazorenko/Parcel-test#readme",
+  "homepage": "https://github.com/YaroslavLazorenko/Parcel-test",
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
     "sass": "^1.41.1"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
